@@ -1,3 +1,19 @@
 {
-  "your": "json config here"
+  "name": "@github-actions-training/demopackage",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github-actions-training/exercise-publish-package.git"
+  },
+  "bugs": {
+    "url": "https://github.com/github-actions-training/exercise-publish-package/issues"
+  },
+  "homepage": "https://github.com/github-actions-training/exercise-publish-package#readme",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
