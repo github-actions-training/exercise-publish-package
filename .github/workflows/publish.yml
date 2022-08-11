@@ -17,6 +17,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - run: |
           cd sample-packages/npm
-          echo '//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}' >> build/.npmrc
+          echo '//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}' >> .npmrc
           npm version 1.0.${{ github.run_number }}
           npm publish
